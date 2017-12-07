@@ -1,0 +1,31 @@
+\section{Cavity theory}
+
+Problem when measuring the dose to a media with a probe.
+If the probe and the media have different compositions, the dose will \emph{not} be equal.
+Now, start with a $\gamma$-beam.
+We have N photons hitting a thin foil, and we have CPE-conditions.
+Further more, the attenuation of the photon-beam is close zero.
+We have some photons entering, with some electrons, but we assume that for each electron entering, we have another electron exiting.
+The transferred energy to the foil is then
+
+\begin{equation}
+    \epsilon_{tr} = R_{in,\gamma} + R_{in, e} - R_{out, \gamma} - R_{out, e}
+\end{equation}
+
+and under CPE:
+
+\begin{equation}
+    \epsilon_{tr} = R_{in, \gamma} - R_{out, \gamma} = N(hv) \mu_{tr} \Delta x
+\end{equation}
+
+The absorbed dose is simply the Kerma, 
+
+\begin{equation}
+    D = K = \frac{\epsilon_{tr}}{m} = \frac{N(hv) \mu_{tr} \Delta x}{m} = \Upsilon \frac{\mu_{tr}}{\rho}
+\end{equation}
+
+And if we allow bremsstrahlung
+
+\begin{equation}
+    D = \Upsilon \frac{\mu_{en}}{\rho}
+\end{equation}

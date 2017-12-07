@@ -1,0 +1,80 @@
+\section{Charged Particles}
+
+\subsection{Kinematics}
+
+An incoming electron (or another charged particle) interacts with an atom (or another charged particle). 
+The collision (or interaction) can either result in an excitation or an ionization. 
+In the excitation, the atom is elevated to a higher energy state, where as in the ionization case, a fast electron is ejected.
+A cross section can be derived using elastic collision formulae, dependent on energy of the incoming particle.
+The cross section rises quickly to some energy $E_{peak}$ and decreases gradually to some $E_{max}$
+The "stopping power" $S$ is the most crucial parameter.
+It describes how the particle looses energy over some distance x.
+If kinetic energy is $T$, distance traveled is $x$ and the stopping power is $S$, we can simply write
+
+\begin{equation}
+    S = \frac{\mathrm{d}T}{\rho \mathrm{d}x}
+\end{equation}
+
+where $\rho$ is the density of the material.
+
+\subsection{Hard and soft collisions}
+
+We separate between soft and hard collisions. 
+The soft collisions are collision where the impact parameter is much longer than the atomic radius. 
+There are only weak Coulomb-interaction and low amounts of energy are transferred.
+Predominantly excitation, but there could be some ionization.
+The energy transfer range on the spectrum from $E_{\mathrm{min}}$ to some $H$.
+
+For hard collisions, the particle travels through the atom.
+The transfers of energy are large (but few) and the spectral energies are from $H$ and up to $E_{\mathrm{max}}$.
+If the binding energy is negligible, it can be considered as an elastic collision between free particles.
+If we add them up, we get a "final" stopping power. 
+The stopping power increases with the charge of the incoming particle and decreases with the square of the velocity.
+There exist some cross-sections that describe hard electron-electron interaction, but they are complicated.
+Shell corrections are the corrections when one excludes the simplification that the velocity of the incoming particles are much higher than the atomic electrons.
+The K-shell electrons are most energetic, they are the first that has to be corrected for, then the L-shell and so on.
+When this is corrected for, a slightly lower stopping power can be found.
+A second correction are done for so called "density effects" in which the particle polarizes the surrounding medium, resulting in weaker interactions.
+
+Linear energy transfer denotes the part of the energy transferred in the surroundings of the particle.
+The energy spectrum is integrated up to a certain cut-off $\delta$
+
+\subsection{Radiation loss}
+
+Bremsestrahlung is emitted from a charged particle that traverses the field from the electrons and nuclei. 
+The effect from the radiation is given by Larmors formula (from classical electromagnetism) for an accelerated charged particle.
+As it depends on the mass ratio squared, it is not important for any other particles than the electron.
+Losses from the bremsstrahlung are called radioactive losses. 
+The maximal energy lost is up to the total kinetic energy of the particle.
+One can define a radiation stopping power, dependent of the square of the $Z$-number (higher $Z$-material leads to higher amount of bremsstrahlung)
+The yield from bremsstrahlung is called radiation yield.
+Some energy can also be lost from Cerenkov radiation, if the speed of the electrons are higher than the phase speed of light in that medium.
+One can also have nuclear interactions where a charged particle is scattered.
+An annihilation of positrons (or electron encountered by a positron) can also happen.
+
+\subsection{Range}
+
+The range $\mathcal{R}$ of a charged particle is the expected path-lenght travelled by that particle. The projected range is then the largest depth a particle can travel \emph{into} a medium. 
+For electrons the projected range are smaller than the range, and for heavy particles they are roughly equal.
+The range can be approximated by using the stopping power and the "continious slowing down approximation"
+
+\begin{equation}
+    \mathcal{R}_{\mathrm{CSDA}} = \int \limits_0^{T_0} \left ( \frac{\mathrm{d}T}{\mathrm{d}x} \right )^{-1} \mathrm{d}T
+\end{equation}
+
+The range depends on
+
+\begin{enumerate}
+    \item 
+    The charge and the kinetic energy
+    \item
+    The density, mean electron density and excitation potential of the absorbing media.
+\end{enumerate}
+
+For low $Z$-media, the range and the projected depth will be approximately equal, but at higher and higher $Z$-media, the range will be much longer than the depth.
+
+\subsection{Scattering}
+
+In a beam of charged particles, one can have variations in energy depositions from straggling, and some variations in angular scattering. 
+This leads to the beam being "smeared out" when traversing a medium.
+The energy will shift downwards and the energy width will be substantially broader.
